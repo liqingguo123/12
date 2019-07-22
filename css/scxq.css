@@ -1,0 +1,157 @@
+.scxqC {
+  width: 1200px;
+  margin: 0px auto;
+}
+
+.lf {
+  float: left;
+}
+
+.rt {
+  float: right;
+}
+
+.mr {
+  margin-right: 20px;
+}
+
+.spt {
+  height: 95px;
+}
+
+.daohang {
+  height: 50px;
+  line-height: 50px;
+  background: -webkit-linear-gradient(left, #9A7EE6, #A7B7F7);
+  /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, #9A7EE6, #A7B7F7);
+  /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(right, #9A7EE6, #A7B7F7);
+  /* Firefox 3.6 - 15 */
+  background: linear-gradient(to right, #9A7EE6, #A7B7F7);
+  /* 标准的语法 */
+}
+
+.daohang>ul>li>a {
+  float: left;
+  padding: 0px 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.daohang>ul>li>a:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.gsm {
+  color: #000;
+  font-size: 16px;
+}
+
+.gsd {
+  color: #C1C1C1;
+  font-size: 14px;
+  margin: 5px 0px;
+}
+
+.qjd {
+  border: 1px solid #D34743;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+.qjd>img {
+  margin: 0px 8px;
+}
+
+.qjd>span {
+  background-color: #D34743;
+  padding: 0px 8px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: #fff
+}
+
+/* 企业店铺 */
+.Top {
+  height: 330px;
+  padding: 20px;
+  border: 1px solid #F39906;
+  position: relative;
+  border-radius: 5px;
+  margin: 20px;
+  background: -webkit-linear-gradient(#fffffe, #fff6e0);
+  /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(#fffffe, #fff6e0);
+  /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(#fffffe, #fff6e0);
+  /* Firefox 3.6 - 15 */
+  background: linear-gradient(#fffffe, #fff6e0);
+  /* 标准的语法 */
+}
+
+.lineClamp {
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.resiter {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #F39906;
+}
+
+.conT {
+  margin: 40px 0px 0px 50px;
+}
+
+.conT>img {
+  margin-right: 20px;
+}
+
+.conT>ul>li:first-child {
+  color: #000;
+  font-size: 18px;
+}
+
+.conT>ul>li>span:first-child {
+  color: #F39906;
+}
+.qd_fl_cont>ul>li{
+  border:1px solid #D8E7F2;
+  float: left;
+  width: 24%;
+  margin:0.5%;
+  padding:5px;
+}
+.moneyC{
+  color: red;
+  font-size: 18px;
+  margin: 7px 0px;
+}
+.nameC{
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  width: 200px;
+  margin-bottom: 7px;
+  color: #000;
+  font-size: 16px;
+}
+.successC{
+  height: 30px;
+  line-height: 30px;
+  border-top: 1px solid #ddd;
+  clear: both;
+  text-align: center
+}
+.numberS{
+  color: #83B9E4;
+}

@@ -1,0 +1,163 @@
+.db_bg {
+	background: url(../image/qxrz.png);
+	width: 100%;
+	height: 151px;
+	line-height: 151px;
+	text-align: center;
+}
+
+.qxrz_btn {
+	background: rgba(240, 146, 66, 1);
+	border-radius: 5px;
+	font-size: 22px;
+	color: #fff;
+	height: 57px;
+	line-height: 57px;
+	width: 200px;
+	border: none;
+}
+
+.qxrz_btn:hover {
+	cursor: pointer;
+	background: rgba(240, 146, 66, 0.7);
+}
+
+.p_title {
+	height: 40px;
+	line-height: 40px;
+	margin: 0px 30px;
+	font-size: 22px;
+	color: #000;
+}
+
+.fbt {
+	border: 0px;
+	background-color: #dd422d;
+	color: #fff;
+	padding: 3px 5px;
+	border-radius: 10px;
+}
+
+.tu {
+	background: url(../image/tu.png)no-repeat;
+	width: 501px;
+	height: 290px;
+	float: right;
+	padding: 90px 20px;
+}
+
+.tu2 {
+	background: url(../image/tu2.png)no-repeat;
+	width: 368px;
+	height: 218px;
+	margin-top: 70px;
+	padding: 55px 15px;
+}
+
+.tu3 {
+	background: url(../image/tu3.png)no-repeat;
+	width: 371px;
+	height: 220px;
+	float: right;
+	padding: 55px 20px;
+}
+
+.tu4 {
+	background: url(../image/tu4.png)no-repeat;
+	width: 442px;
+	height: 262px;
+	padding: 80px 20px;
+}
+
+.ptu {
+	width: 50%;
+	padding-right: 10px;
+}
+
+.xzwm {
+	height: 600px;
+	width: 100%;
+}
+
+.tuc_p {
+	width: 70%;
+	padding: 10px;
+	font-size: 16px;
+	color: #fff;
+}
+
+.tuc_p1 {
+	width: 64%;
+	padding: 10px;
+	font-size: 16px;
+	color: #fff;
+}
+
+.num {
+	font-size: 20px;
+}
+
+.xyql {
+	background: url(../image/b_bg.png)no-repeat;
+	width: 100%;
+	height: 786px;
+}
+
+.qlbg {
+	background: url(../image/qlbg.png)no-repeat;
+	width: 100%;
+	height: 165px;
+	padding: 40px 70px;
+}
+
+.xyql>ul>li {
+	width: 33%;
+	float: left;
+}
+
+.xyql>ul>li:last-child{
+	width: 34%;
+	float: left;
+}
+
+.xyql>ul>li>ul {
+	background: #fff;
+	padding: 20px 0px;
+}
+
+.xyql>ul>li>ul>li {
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.sj>li {
+	margin-top: 10px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.rzfws {
+	background: url(../image/rzfws.png)no-repeat;
+	width: 1200px;
+	height: 68px;
+	line-height: 68px;
+	text-align: center;
+	margin: 0px auto;
+	color: #fff;
+	font-size: 18px;
+}
+
+.table_t {
+	background-color: #D5EEFF;
+	border-bottom: 1 solid #C0C0C0";
+}
+
+.table_t>tbody>tr {
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px dashed #7DC0EB;
+}
+.table_t>tbody>tr>td {
+	padding-left: 5px;
+}

@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css1/qd_reset.css">
+	<link rel="stylesheet" href="css1/qd_index.css">
+	<link rel="stylesheet" href="css1/qd_z.css">
+	<link rel="stylesheet" href="css1/main.css">
+	<link rel="stylesheet" href="css/xqfb.css" />
+	<link rel="stylesheet" href="css/iconfont.css" />
+	<link rel="stylesheet" href="layui/css/layui.css">
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<script src="layui/layui.js"></script>
+	<title>汉兴制造企业供应链自助服务平台</title>
+	<style>
+		.lb_mc1 {
+			width: 100px;
+		}
+
+		.lb_tx1in input {
+			width: 340px;
+		}
+
+		.lb_tx2in input {
+			width: 340px;
+		}
+
+		.lb_hang1 {
+			margin-bottom: 0px;
+		}
+	</style>
+</head>
+
+<body>
+	<!--header-->
+	<!--<iframe src="iframe/header.html" width="100%" height="181px" frameborder="0"></iframe>-->
+	<div class="bgBanner">
+		<div style="margin-bottom: 80px;text-align: center;padding-top:100px;">
+			<img src="image/xu.png" alt="" />
+			<img src="image/qiu.png" alt="" />
+			<img src="image/fa.png" alt="" />
+			<img src="image/bu.png" alt="" />
+		</div>
+		<h5 class="h5-t">
+			<span class="title-text_span">凝聚创新要素资源，服务创新驱动</span>
+			<span style="position: absolute;right: 0px;"></span>
+		</h5>
+	</div>
+	<div style="position: relative;margin-bottom: 50px;">
+		<div class="dengl">
+			<div style="width: 200px;text-align: center;" class="lf">
+				<img src="image/dl.png" height="69" width="69" style="margin:9px 0px;" />
+				<p>您好！请
+					<a href="" class="col1"> 登录\注册</a>
+				</p>
+			</div>
+			<b class="lf xian12"></b>
+			<ul style="width:700px;" class="lf top_ul">
+				<li>
+					<img src="image/jyaq.png" alt="" />
+					<p>交易安全</p>
+				</li>
+				<li>
+					<img src="image/plqq.png" alt="" />
+					<p>品类齐全</p>
+				</li>
+				<li>
+					<img src="image/zbsc.png" alt="" />
+					<p>周边市场</p>
+				</li>
+				<li>
+					<img src="image/smsj.png" alt="" />
+					<p>实名商家</p>
+				</li>
+			</ul>
+			<b class="lf xian12"></b>
+			<div class="rt" style="padding-top:30px;width: 270px;">
+				<p><span style="color: #1E5788;font-size: 20px;">121126</span> 家工厂已入驻</p>
+				<p style="margin-top:20px"><span class="iconfont icon-xiaolaba" style="color: #1E5788;"></span>
+					"四川省集团有限公司"正式发布商品</p>
+			</div>
+		</div>
+	</div>
+	<div class="body_bg">
+		<div class="qd_center pt30">
+			<div class="top-bg">
+				<div>
+					<img src="image/banner/03.png" alt="">
+					<span>需求发布</span>
+					<img src="image/banner/04.png" alt="">
+				</div>
+				<p class="hr-line-div mrtl">
+					聚集创新要素资源，服务创新驱动与经济高质量发展
+				</p>
+			</div>
+			<div class="bgf clear">
+				<ul class="xsjz_ul">
+					<li class="act_color">综合</li>
+					<li>人才</li>
+					<li>技术</li>
+					<li>政策</li>
+				</ul>
+				<div class="clear">
+					<input type="text" class="inputt" placeholder="搜索关键词，全品类资源一键get">
+					<button class="sousuo">搜索</button>
+					<span>或</span>
+					<button class="fbxq">发布需求</button>
+				</div>
+				<ul class="xsjp_ctn">
+					<li>
+						<div class="titkle">
+							<span style="color:#2b6dc5;font-weight: bold">需求列表</span>
+							<span class="rt">共<span style="color:#ef843c">5678</span>条 综合需求</span>
+						</div>
+						<b class="xian"></b>
+						<ul class="ul_jp">
+							<li>
+								<ul class="lf ul_01">
+									<li style="margin:20px 0px 15px 0px;">
+										<span class="mcc">青岛金海自动化装备有限公司</span>
+										<span class="rt" style="color: #696969;">2018-04-25发布</span>
+									</li>
+									<li>
+										<span class="lf xq">需求信息：</span>
+										<span class="lf xx">
+											寻求有重工业机械设计经验的外包公司，要求有相关的设计经验，细节面议
+										</span>
+									</li>
+								</ul>
+								<ul class="lf ul_02">
+									<li>
+										<span class="rmb">¥1600</span>
+									</li>
+									<li>
+										<span style="color:#ef843c">24人投标</span>
+									</li>
+								</ul>
+								<ul class="lf ul_03">
+									<li>
+										<span>项目状态：已发布</span>
+									</li>
+									<li>
+										<span>项目分类;机器设备/机械设计 </span>
+									</li>
+									<li style="margin-top:6px;">
+										<span>所在地：山东/青岛</span>
+									</li>
+								</ul>
+								<ul class="lf dx">
+									<li style="margin:20px 0px">
+										<a class="sqdx"  href="view/xuqiu/qiye.html">申请对接</a>
+									</li>
+									<li>
+										<img src="image/banner/liulan11.png" alt="" />
+										<span>浏览量：239</span>
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<ul class="ul_jp">
+							<li>
+								<ul class="lf ul_01">
+									<li style="margin:20px 0px 15px 0px;">
+										<span class="mcc">青岛金海自动化装备有限公司</span>
+										<span class="rt" style="color: #696969;">2018-04-25发布</span>
+									</li>
+									<li>
+										<span class="lf xq">需求信息：</span>
+										<span class="lf xx">
+											寻求有重工业机械设计经验的外包公司，要求有相关的设计经验，细节面议
+										</span>
+									</li>
+								</ul>
+								<ul class="lf ul_02">
+									<li>
+										<span class="rmb">¥1600</span>
+									</li>
+									<li>
+										<span style="color:#ef843c">24人投标</span>
+									</li>
+								</ul>
+								<ul class="lf ul_03">
+									<li>
+										<span>项目状态：已发布</span>
+									</li>
+									<li>
+										<span>项目分类;机器设备/机械设计 </span>
+									</li>
+									<li style="margin-top:6px;">
+										<span>所在地：山东/青岛</span>
+									</li>
+								</ul>
+								<ul class="lf dx">
+									<li style="margin:20px 0px">
+										<a class="sqdx"  href="view/xuqiu/qiye.html">申请对接</a>
+									</li>
+									<li>
+										<img src="image/banner/liulan11.png" alt="" />
+										<span>浏览量：239</span>
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<ul class="ul_jp">
+							<li>
+								<ul class="lf ul_01">
+									<li style="margin:20px 0px 15px 0px;">
+										<span class="mcc">青岛金海自动化装备有限公司</span>
+										<span class="rt" style="color: #696969;">2018-04-25发布</span>
+									</li>
+									<li>
+										<span class="lf xq">需求信息：</span>
+										<span class="lf xx">
+											寻求有重工业机械设计经验的外包公司，要求有相关的设计经验，细节面议
+										</span>
+									</li>
+								</ul>
+								<ul class="lf ul_02">
+									<li>
+										<span class="rmb">¥1600</span>
+									</li>
+									<li>
+										<span style="color:#ef843c">24人投标</span>
+									</li>
+								</ul>
+								<ul class="lf ul_03">
+									<li>
+										<span>项目状态：已发布</span>
+									</li>
+									<li>
+										<span>项目分类;机器设备/机械设计 </span>
+									</li>
+									<li style="margin-top:6px;">
+										<span>所在地：山东/青岛</span>
+									</li>
+								</ul>
+								<ul class="lf dx">
+									<li style="margin:20px 0px">
+										<a class="sqdx" href="view/xuqiu/qiye.html">申请对接</a>
+									</li>
+									<li>
+										<img src="image/banner/liulan11.png" alt="" />
+										<span>浏览量：239</span>
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<ul class="ul_jp">
+							<li>
+								<ul class="lf ul_01">
+									<li style="margin:20px 0px 15px 0px;">
+										<span class="mcc">青岛金海自动化装备有限公司</span>
+										<span class="rt" style="color: #696969;">2018-04-25发布</span>
+									</li>
+									<li>
+										<span class="lf xq">需求信息：</span>
+										<span class="lf xx">
+											寻求有重工业机械设计经验的外包公司，要求有相关的设计经验，细节面议
+										</span>
+									</li>
+								</ul>
+								<ul class="lf ul_02">
+									<li>
+										<span class="rmb">¥1600</span>
+									</li>
+									<li>
+										<span style="color:#ef843c">24人投标</span>
+									</li>
+								</ul>
+								<ul class="lf ul_03">
+									<li>
+										<span>项目状态：已发布</span>
+									</li>
+									<li>
+										<span>项目分类;机器设备/机械设计 </span>
+									</li>
+									<li style="margin-top:6px;">
+										<span>所在地：山东/青岛</span>
+									</li>
+								</ul>
+								<ul class="lf dx">
+									<li style="margin:20px 0px">
+										<a class="sqdx" href="view/xuqiu/qiye.html">申请对接</a>
+									</li>
+									<li>
+										<img src="image/banner/liulan11.png" alt="" />
+										<span>浏览量：239</span>
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<ul class="ul_jp">
+							<li>
+								<ul class="lf ul_01">
+									<li style="margin:20px 0px 15px 0px;">
+										<span class="mcc">青岛金海自动化装备有限公司</span>
+										<span class="rt" style="color: #696969;">2018-04-25发布</span>
+									</li>
+									<li>
+										<span class="lf xq">需求信息：</span>
+										<span class="lf xx">
+											寻求有重工业机械设计经验的外包公司，要求有相关的设计经验，细节面议
+										</span>
+									</li>
+								</ul>
+								<ul class="lf ul_02">
+									<li>
+										<span class="rmb">¥1600</span>
+									</li>
+									<li>
+										<span style="color:#ef843c">24人投标</span>
+									</li>
+								</ul>
+								<ul class="lf ul_03">
+									<li>
+										<span>项目状态：已发布</span>
+									</li>
+									<li>
+										<span>项目分类;机器设备/机械设计 </span>
+									</li>
+									<li style="margin-top:6px;">
+										<span>所在地：山东/青岛</span>
+									</li>
+								</ul>
+								<ul class="lf dx">
+									<li style="margin:20px 0px">
+										<a class="sqdx" href="view/xuqiu/qiye.html">申请对接</a>
+									</li>
+									<li>
+										<img src="image/banner/liulan11.png" alt="" />
+										<span>浏览量：239</span>
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<ul class="ul_jp">
+							<li>
+								<ul class="lf ul_01">
+									<li style="margin:20px 0px 15px 0px;">
+										<span class="mcc">青岛金海自动化装备有限公司</span>
+										<span class="rt" style="color: #696969;">2018-04-25发布</span>
+									</li>
+									<li>
+										<span class="lf xq">需求信息：</span>
+										<span class="lf xx">
+											寻求有重工业机械设计经验的外包公司，要求有相关的设计经验，细节面议
+										</span>
+									</li>
+								</ul>
+								<ul class="lf ul_02">
+									<li>
+										<span class="rmb">¥1600</span>
+									</li>
+									<li>
+										<span style="color:#ef843c">24人投标</span>
+									</li>
+								</ul>
+								<ul class="lf ul_03">
+									<li>
+										<span>项目状态：已发布</span>
+									</li>
+									<li>
+										<span>项目分类;机器设备/机械设计 </span>
+									</li>
+									<li style="margin-top:6px;">
+										<span>所在地：山东/青岛</span>
+									</li>
+								</ul>
+								<ul class="lf dx">
+									<li style="margin:20px 0px">
+										<a class="sqdx" href="view/xuqiu/qiye.html">申请对接</a>
+									</li>
+									<li>
+										<img src="image/banner/liulan11.png" alt="" />
+										<span>浏览量：239</span>
+									</li>
+								</ul>
+							</li>
+						</ul>
+
+						<div class="qd_center clear qd_cen qd_pt35">
+							<div id="demo2"></div>
+						</div>
+					</li>
+					<li>2222</li>
+					<li>3333</li>
+					<li>4444</li>
+				</ul>
+			</div>
+		</div>
+		<div class="qd_center">
+			<div style="text-align: center">
+				<img src="image/banner/03.png" alt="">
+				<span class="yxqyb">优选企业榜</span>
+				<img src="image/banner/04.png" alt="">
+			</div>
+			<p class="hr-line-div mrtl">
+				聚集创新要素资源，服务创新驱动与经济高质量发展
+			</p>
+		</div>
+		<div style="width:100%;position: relative">
+			<img src="image/banner/02.png" class="rt" style="position: absolute; height: 70px;right: 0px; top: -50px;"
+				alt="" />
+		</div>
+		<div class="qd_center" style="background-color: #fff;margin-top:15px;">
+			<div style="position: relative;color:#fff;width:260px;" class="lf">
+				<img src="image/banner/z03.png" alt="" />
+				<span style="position: absolute;bottom:15px;left:50px;">园区企业入驻<span
+						style="color:#eea841;font-size: 16px;">274600</span>位</span>
+			</div>
+			<div style="background-color: #fff;height:560px;width:940px;padding:10px;" class="lf">
+				<ul class="qd_lb qdd">
+					<li>
+						<div>
+							<div>
+								<img src="image/banner/001.png" alt="">
+							</div>
+							<div class="">
+								<p class="qd_mc qd_mc1">调速交流电机齿轮泵</p>
+								<p><span><img src="image/sx.png" alt=""> 青岛环球集团</span></p>
+							</div>
+						</div>
+						<div class="qd_bott_span">
+							<p>04月22日下午3时</p>
+							<p> <img src="image/banner/liulan11.png" style="height:15px;width: 15px;" alt="" /> <span>4567</span>人围观
+							</p>
+						</div>
+					</li>
+					<li>
+						<div>
+							<div>
+								<img src="image/banner/002.png" alt="">
+							</div>
+							<div class="">
+								<p class="qd_mc qd_mc1">调速交流电机齿轮泵</p>
+								<p><span><img src="image/sx.png" alt=""> 青岛环球集团</span></p>
+							</div>
+						</div>
+						<div class="qd_bott_span">
+							<p>04月22日下午3时</p>
+							<p> <img src="image/banner/liulan11.png" style="height:15px;width: 15px;" alt="" /> <span>4567</span>人围观
+							</p>
+						</div>
+					</li>
+					<li>
+						<div>
+							<div>
+								<img src="image/banner/003.png" alt="">
+							</div>
+							<div class="">
+								<p class="qd_mc qd_mc1">调速交流电机齿轮泵</p>
+								<p><span><img src="image/sx.png" alt=""> 青岛环球集团</span></p>
+							</div>
+						</div>
+						<div class="qd_bott_span">
+							<p>04月22日下午3时</p>
+							<p> <img src="image/banner/liulan11.png" style="height:15px;width: 15px;" alt="" /> <span>4567</span>人围观
+							</p>
+						</div>
+					</li>
+					<li>
+						<div>
+							<div>
+								<img src="image/banner/004.png" alt="">
+							</div>
+							<div class="">
+								<p class="qd_mc qd_mc1">调速交流电机齿轮泵</p>
+								<p><span><img src="image/sx.png" alt=""> 青岛环球集团</span></p>
+							</div>
+						</div>
+						<div class="qd_bott_span">
+							<p>04月22日下午3时</p>
+							<p> <img src="image/banner/liulan11.png" style="height:15px;width: 15px;" alt="" /> <span>4567</span>人围观
+							</p>
+						</div>
+					</li>
+					<li style="margin-right:20px;">
+						<div>
+							<div>
+								<img src="image/banner/005.png" alt="">
+							</div>
+							<div class="">
+								<p class="qd_mc qd_mc1">调速交流电机齿轮泵</p>
+								<p><span><img src="image/sx.png" alt=""> 青岛环球集团</span></p>
+							</div>
+
+						</div>
+						<div class="qd_bott_span">
+							<p>04月22日下午3时</p>
+							<p> <img src="image/banner/liulan11.png" style="height:15px;width: 15px;" alt="" /> <span>4567</span>人围观
+							</p>
+						</div>
+					</li>
+					<li>
+						<div>
+							<div>
+								<img src="image/banner/006.png" alt="">
+							</div>
+							<div class="">
+								<p class="qd_mc qd_mc1">调速交流电机齿轮泵</p>
+								<p><span><img src="image/sx.png" alt=""> 青岛环球集团</span></p>
+							</div>
+						</div>
+						<div class="qd_bott_span">
+							<p>04月22日下午3时</p>
+							<p> <img src="image/banner/liulan11.png" style="height:15px;width: 15px;" alt="" /> <span>4567</span>人围观
+							</p>
+						</div>
+					</li>
+				</ul>
+				<div class="r">
+					<p style="color:#1B81F7"><span></span>热门优选</p>
+					<ul>
+						<li>
+							<img src="image/banner/007.png" class="lf" alt="" />
+							<ul class="lf">
+								<li>调速交流电机齿轮泵</li>
+								<li>04月22日下午3时</li>
+								<li>
+									<img src="image/banner/liulan11.png" style="height:15px;width: 15px;" alt="" />
+									<span><span>4567</span>人围观</span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<img src="image/banner/008.png" class="lf" alt="" />
+							<ul class="lf">
+								<li>调速交流电机齿轮泵</li>
+								<li>04月22日下午3时</li>
+								<li>
+									<img src="image/banner/liulan11.png" style="height:15px;width: 15px;" alt="" />
+									<span><span>4567</span>人围观</span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<img src="image/banner/009.png" class="lf" alt="" />
+							<ul class="lf">
+								<li>调速交流电机齿轮泵</li>
+								<li>04月22日下午3时</li>
+								<li>
+									<img src="image/banner/liulan11.png" style="height:15px;width: 15px;" alt="" />
+									<span><span>4567</span>人围观</span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<img src="image/banner/010.png" class="lf" alt="" />
+							<ul class="lf">
+								<li>调速交流电机齿轮泵</li>
+								<li>04月22日下午3时</li>
+								<li>
+									<img src="image/banner/liulan11.png" style="height:15px;width: 15px;" alt="" />
+									<span><span>4567</span>人围观</span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<img src="image/banner/007.png" class="lf" alt="" />
+							<ul class="lf">
+								<li>调速交流电机齿轮泵</li>
+								<li>04月22日下午3时</li>
+								<li>
+									<img src="image/banner/liulan11.png" style="height:15px;width: 15px;" alt="" />
+									<span><span>4567</span>人围观</span>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<iframe src="iframe/footer.html" width="100%" height="220px" frameborder="0"></iframe>
+</body>
+<script>
+	layui.use(['laypage', 'layer'], function () {
+		var laypage = layui.laypage,
+			layer = layui.layer;
+		laypage.render({
+			elem: 'demo2',
+			count: 100,
+			theme: '#1E9FFF'
+		});
+	})
+
+	//		var test = document.getElementById('test');
+	//		var fileUpdate_button = document.getElementById("fileUpdate_button");
+	//		var fileUpdate_input = document.getElementById("test");
+	//		fileUpdate_button.onclick = function(e) {
+	//			fileUpdate_input.click();
+	//		}
+	//		test.addEventListener('change', function() {
+	//			var t_files = this.files;
+	//			var fl = t_files.length
+	//			var s = 0;
+	//			var str = '';
+	//			if(fl > 5) {
+	//				alert("上传的文件数量超过5个了！请重新选择！");
+	//			} else {
+	//				for(var i = 0, len = t_files.length; i < len; i++) {
+	//					console.log(t_files[i]);
+	//					str += '<a href="javascript:void(0)">' + t_files[i].name + '</a><br/>';
+	//				};
+	//			}
+	//			document.getElementById('content').innerHTML = str;
+	//		}, false);
+
+	$(".qd_lb li").on("mouseover", function () {
+		$(this).css({
+			"opacity": "0.8",
+			"cursor": "pointer",
+			"border": "1px solid #0bf",
+			"box-shadow": "2px 2px 5px 8px #eee"
+		});
+		$(this).find("img").css("transform", " scale(1.1)");
+	}).on("mouseout", function () {
+		$(this).css({
+			"opacity": "1",
+			"border": "1px solid #d6d6d6",
+			"box-shadow": "0px 0px 0px 0px #fff"
+		});
+		$(this).find("img").css("transform", " scale(1)");
+	})
+	//    分页
+	layui.use(['laypage', 'layer'], function () {
+		var laypage = layui.laypage,
+			layer = layui.layer;
+		laypage.render({
+			elem: 'demo2',
+			count: 100,
+			theme: '#1E9FFF'
+		});
+	})
+	$(".xsjz_ul li").click(function () {
+		$(this).addClass("act_color").siblings().removeClass("act_color")
+		var i = $(this).index();
+		$('.xsjp_ctn>li').eq(i).show().siblings().hide();
+	})
+</script>
+
+</html>

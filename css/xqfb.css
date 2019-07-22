@@ -1,0 +1,166 @@
+/*发布需求*/
+
+.bgBanner {
+	background: url(../image/xuqiuditu.png)no-repeat;
+	width: 100%;
+	height: 573px;
+}
+
+.dengl {
+	background-color: #F7F7F7;
+	width: 1200px;
+	margin: auto;
+	height: 120px;
+	border-radius: 8px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 40px;
+}
+
+.col1 {
+	color: #217CD1;
+}
+
+.top_ul>li {
+	width: 25%;
+	text-align: center;
+	float: left;
+	margin-top: 20px;
+}
+
+.top_ul>li>p {
+	margin-top: 10px;
+}
+
+.xian12 {
+	border-right: 1px solid #ddd;
+	height: 90px;
+	display: block;
+	width: 5px;
+	margin-top: 15px;
+}
+
+.h5-t {
+	position: relative;
+	height: 20px;
+	line-height: 20px;
+}
+
+.title-text_span {
+	display: block;
+	position: relative;
+	text-align: center;
+	width: 100%;
+	float: left;
+	font-size: 20px!important;
+	color: #fff;
+}
+
+.title-text_span:before {
+	left: 32%;
+}
+
+.title-text_span:after,
+.title-text_span:before {
+	content: '';
+	position: absolute;
+	top: 35%;
+	background: #fff;
+	width: 8%;
+	height: 2px;
+}
+
+.title-text_span:after {
+	right: 32%;
+}
+
+
+/*产品商城*/
+
+.bqb {
+	height: 180px;
+	border: 1px solid #4FBFE6;
+	margin: 30px auto;
+	!important;
+	position: relative;
+}
+
+.zj {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.bqb>div {
+	height: 77%;
+	width: 50%;
+	float: left;
+	border-right: 1px dashed #C5EAF7;
+	margin: 20px 0px;
+	padding: 0px 50px;
+}
+
+.bqb>div:last-child {
+	border-right: none;
+}
+
+.coldd {
+	color: #01c1dd;
+}
+
+.bqb>div>ul {
+	width: 100%;
+}
+
+.bqb>div>ul>li {
+	padding-left: 160px;
+}
+
+.mondy {
+	color: red;
+	font-size: 18px;
+	padding-top: 12px;
+	display: inline-block;
+}
+
+.xl {
+	margin-left: 10px;
+	padding-top: 8px
+}
+
+.mt10 {
+	margin-top: 10px;
+}
+
+.lineClamp {
+	text-overflow: -o-ellipsis-lastline;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+.over{
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	display: inline-block;
+	width: 300px;
+}
+.overW{
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	display: inline-block;
+	width: 240px;
+}
+.overW1{
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	display: inline-block;
+	width: 120px;
+}

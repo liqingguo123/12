@@ -1,0 +1,79 @@
+@charset "utf-8";
+.layui-tab {
+	margin: 10px;
+}
+
+.Fujian {
+	width: 160px;
+	height: 100px;
+	display: block;
+}
+
+.Fujian:hover {
+	cursor: pointer;
+	text-decoration: underline;
+	color: #015293;
+}
+
+.wenjadf {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 160px;
+	height: 100px;
+	opacity: 0
+}
+
+.Fujian i {
+	font-style: normal;
+	color: #999;
+}
+
+.Fileload {
+	height: 100px;
+	line-height: 50px;
+	position: relative;
+	float: left;
+	width: 160px;
+}
+
+.fileChild {
+	float: left;
+	width: 17%;
+}
+
+.InputFather {
+	position: relative;
+	height: 100px;
+}
+
+.picture {
+	height: 100px;
+	line-height: 100px;
+	position: relative;
+	float: left;
+	width: 160px;
+}
+#imgpositive,#imgreverse,#imgHead,#imgDoor,#imgHeads,#imgLogo{
+	border: 1px solid #dcdcdc;
+}
+.layui-form-label{
+	width: 85px;
+}
+.layui-input-block {
+    margin-left: 115px;
+    min-height: 36px;
+}
+.layBG{
+	background: #fff;
+}
+body{
+	background: url(../image/youxiangdi.png) no-repeat;
+}
+.emal_bg_foot{
+	background-color: #1A1A1A;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 50px;
+    color: #fff;
+}
